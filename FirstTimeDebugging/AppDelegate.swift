@@ -20,7 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         var testArray: [String] = ["Uh oh..."]
         testArray.removeFirst()
-        testArray.removeFirst()
+        // if this function ever runs it sets testArray to only having one value in it then removing that one value. there is no point for a second remove to be in this code.
+        // testArray.removeFirst()
         return true
     }
 
